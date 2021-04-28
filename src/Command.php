@@ -23,9 +23,11 @@ class Command
     |   php index.php pythagorean   args1 args2             |  args1: float (required)            |
     |                                                       |  args2: float (required)            |
     |---------------------------------------------------------------------------------------------|
-    |   php index.php areaOfSquare  args1 args2 args3       |  args1: float lenght (required)     |
+    |   php index.php areaOfSquare  args1 args2             |  args1: float lenght (required)     |
     |                                                       |  args2: float width  (required)     |
-    |                                                       |  args3: float height (required)     |
+    |---------------------------------------------------------------------------------------------|
+    |   php index.php areaOfTriangle   args1 args2          |  args1: float base    (required)    |
+    |                                                       |  args2: float height  (required)    |
     *---------------------------------------------------------------------------------------------*
     \n";
 
