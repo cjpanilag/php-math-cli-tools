@@ -14,17 +14,16 @@ class Area
 
     /**
      * solving the area of a square
-     * eqn: A = l * w * h
+     * eqn: A = l * w 
      * 
      * @param Float length
      * @param Float width
-     * @param Float height
      * 
      * @return Float area
      */
-    static function areaOfSquare(float $length, float $width, float $height): float
+    static function areaOfSquare(float $length, float $width): float
     {
-        return ($length * $width * $height);
+        return ($length * $width);
     }
 
 }

@@ -20,8 +20,8 @@ function pythagorean($a, $b) {
     print $result;
 }
 
-function areaOfSquare($length, $width, $height) {
-    $result = Math::areaOfSquare($length, $width, $height);
+function areaOfSquare($length, $width) {
+    $result = Math::areaOfSquare($length, $width);
     $result = "\033[32m$result \033[0m\n";
     print $result;
 }

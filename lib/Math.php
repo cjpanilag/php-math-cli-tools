@@ -32,12 +32,11 @@ class Math
     /**
      * @param Float length
      * @param Float width
-     * @param Float hight
      * 
      * @return Float area
      */
-    static function areaOfSquare($length, $width, $height)
+    static function areaOfSquare($length, $width)
     {
-        return Area::areaOfSquare($length, $width, $height);
+        return Area::areaOfSquare($length, $width);
     }
 }
