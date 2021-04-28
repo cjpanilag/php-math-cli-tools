@@ -26,4 +26,18 @@ class Area
         return ($length * $width);
     }
 
+    /**
+     * solving the area of a triangle
+     * eqn: A = 0.5(bh)
+     * 
+     * @param Flaot $base
+     * @param Float $height
+     * 
+     * @return Float area
+     */
+    static function areaOfTriangle(float $base, float $height): float
+    {
+        return (.5 * ($base * $height));
+    }
+
 }

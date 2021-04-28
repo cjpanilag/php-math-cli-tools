@@ -26,3 +26,9 @@ function areaOfSquare($length, $width) {
     print $result;
 }
 
+function areaOfTriangle($base, $height) {
+    $result = Math::areaOfTriangle($base, $height);
+    $result = "\033[32m$result \033[0m\n";
+    print $result;
+}
+

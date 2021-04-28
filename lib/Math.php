@@ -39,4 +39,15 @@ class Math
     {
         return Area::areaOfSquare($length, $width);
     }
+
+    /**
+     * @param Float base
+     * @param Float height
+     * 
+     * @return Float area
+     */
+    static function areaOfTriangle($base, $height)
+    {
+        return Area::areaOfTriangle($base, $height);
+    }
 }
